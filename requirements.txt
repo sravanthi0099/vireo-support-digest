@@ -1,0 +1,6 @@
+pandas>=2.0
+tabulate
+numpy
+pytest
+# optional, only for --llm:
+# anthropic

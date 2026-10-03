@@ -1,0 +1,70 @@
+{
+  "cleaning": {
+    "rows_in": 12528,
+    "unique_ticket_ids": 11875,
+    "rows_after_dedupe": 11875,
+    "legacy_rows_tz_shifted": 3109,
+    "resolved_before_created": 0,
+    "order_join_share": {
+      "order_id": 0.661,
+      "cust+sku": 0.339
+    }
+  },
+  "business_case": {
+    "done_tickets": 11266,
+    "weeks_in_export": 77.9,
+    "tickets_per_week_in_export": 152.5,
+    "repeat_rate_raw": 0.2872,
+    "repeat_rate_chance": 0.0817,
+    "chance_sd": 0.0015,
+    "repeat_rate_above_chance": 0.2056,
+    "avg_cost_per_repeat_inr": 268.5,
+    "policy_blended_cost": 290,
+    "target_rate": 0.2552,
+    "target_pts": 3.2,
+    "chase_families_rate": 0.3395,
+    "rest_rate": 0.2553,
+    "chase_share_of_tickets": 0.379,
+    "saving_per_quarter_export_scale_inr": 16163,
+    "saving_per_quarter_vireo_scale_inr": 68880,
+    "repeat_by_family": {
+      "App & account": {
+        "mean": 0.216,
+        "size": 904
+      },
+      "Billing": {
+        "mean": 0.369,
+        "size": 1377
+      },
+      "Delivery": {
+        "mean": 0.326,
+        "size": 2894
+      },
+      "Pre-sales": {
+        "mean": 0.299,
+        "size": 662
+      },
+      "Product fault": {
+        "mean": 0.247,
+        "size": 3085
+      },
+      "Refunds & returns": {
+        "mean": 0.282,
+        "size": 1807
+      },
+      "Unclassified": {
+        "mean": 0.245,
+        "size": 192
+      },
+      "Warranty": {
+        "mean": 0.217,
+        "size": 345
+      }
+    },
+    "sla_credit_per_quarter_vireo_scale_inr": 261754,
+    "sla_breach_rate": 0.0885,
+    "sla_credit_total_inr": 367850,
+    "transfers_total": 1169,
+    "transfer_cost_total_inr": 356545
+  }
+}

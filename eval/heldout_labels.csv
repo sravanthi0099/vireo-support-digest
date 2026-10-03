@@ -1,0 +1,249 @@
+idx,ticket_id,issue,family,issue_source,customer_message,agent_notes,reviewer_issue,reviewer
+0,TK-240373,battery_charging,Product fault,msg,"heelo
+case does not charge, no light at all
+anyone thhere","1. Charging case dead
+2. Confirmed case LED dead
+3. Escalated to warranty",battery_charging,"Claude (AI), not a human - needs human spot-check"
+1,TK-245921,coupon_price,Billing,msg,"Hi there, Ordered the Nexa 2 around Diwali. Discount was not applied at checkout. I tried in caps. Please resolve asap. Awaiting response Shreya",store credit issued,coupon_price,"Claude (AI), not a human - needs human spot-check"
+2,TK-251264,refund_pending,Refunds & returns,msg,you picked up the item 16 days ago and my money hasn't come back,"1. Refund not credited
+2. Checked reverse pickup QC status
+3. Refund reprocessed",refund_pending,"Claude (AI), not a human - needs human spot-check"
+3,TK-241596,unclassified,Unclassified,none,speaker won't turn on,cx reached out - no power. walked through hard reset. reset rslvd.,power_fault,"Claude (AI), not a human - needs human spot-check"
+4,TK-252682,damaged_in_transit,Delivery,msg,crackling sound in the right side,"Cust contacted re audio distortion. Asked for a recording. Advised EQ reset, rslvd. (SOP 4.2) ~Sukhwinder",audio_fault,"Claude (AI), not a human - needs human spot-check"
+5,TK-243487,pairing_connectivity,Product fault,msg,"Product: Pulse earbuds
+Order: VR895519
+Purchased: 05-07-2025
+Issue: not pairing with my phone
+Tried: restarted the phone
+Expected: refund",as discussed ~Ayaan,pairing_connectivity,"Claude (AI), not a human - needs human spot-check"
+6,TK-252790,double_charge,Billing,note,"piad once, statement disagrees",cx: charged twice | confirmed utrs -> refund processed ~Diya,double_charge,"Claude (AI), not a human - needs human spot-check"
+7,TK-247962,delivery_not_received,Delivery,msg,"hi
+i haven't received my order
+orbit mini
+anyone there",issue: delvery delayed | raised ticket with courier partner -> refund initiated as lost in transit,delivery_not_received,"Claude (AI), not a human - needs human spot-check"
+8,TK-252207,battery_charging,Product fault,msg,"Hi,
+Raiseed this 2 weeks ago and was told it was resolved. Got Nexa 2 from vireo.in 2 weekks ago. Dies by lunchtime with light use.
+I turned off always-on display. Nothing changed.
+Kindly look into it.
+Awaiting response",see prev,battery_charging,"Claude (AI), not a human - needs human spot-check"
+9,TK-245158,invoice,Billing,msg,"Product: Strata 2
+Order: VR906890
+Purchased: 20-07-2024
+Issue: my company accounts team is asking for the tax bill
+Tried: tried different browser
+Expected: callback",- ~Diya,invoice,"Claude (AI), not a human - needs human spot-check"
+10,TK-244653,warranty_rma,Warranty,msg,"To the Vireo Customer Care Team,
+
+I am writing with reference to my order of pulse 2 buds placed on 30/07. What is the status of my warranty claim. I have called service centre. I request you to kindly arrange a replacement.
+
+Sincerely,
+Geeta Mittal
+Lucknow","rma status query | followed up w/ service centre -> cx updated, eta shared",warranty_rma,"Claude (AI), not a human - needs human spot-check"
+11,TK-253434,pairing_connectivity,Product fault,msg,"Namaste,
+Arc neckband purchased last week, order VR889348. The pairing light bliinks but nothing ever shows up on my Nothing phone.
+I restarted the phone. Nothing changed.
+Please help.
+Please revert Zoya","reset done, paired ok. issue: device not discoverable. walked through forget + re-pair.",pairing_connectivity,"Claude (AI), not a human - needs human spot-check"
+12,TK-249288,app_crash,App & account,note,My earlier ticket got closed without a fix. - can't get past the loadiing screen in the app,"cx reached out - app crash on device page. chk app version. xfer to Email Frontline. adv beta build, rslvd. ~Sukhwinder",app_crash,"Claude (AI), not a human - needs human spot-check"
+13,TK-252704,refund_pending,Refunds & returns,msg,"i have been a loyal customer and this is how you treat me. this was supposedly sorted by your team last time. order vr909918 (pulse 2). paid on 11/03, still waiting for something to show up. i already called the courier. refund. now.","courier conf delivery for 01 may, cx informed. issue: shipment not received. conf address with cx.",delivery_not_received,"Claude (AI), not a human - needs human spot-check"
+14,TK-250127,address_change,Delivery,msg,[IVR transcript] helo update my shipping address my pulse,"1. Address updaet
+2. chk dispatch status
+3. Already dispatched, adv to redirect w/ crr",address_change,"Claude (AI), not a human - needs human spot-check"
+15,TK-254808,refund_pending,Refunds & returns,msg,"hi there,
+my strata 3 headphones purchased 10 days ago, order vr883270. still waiting for my refund.
+i want my money back.
+thanks in advance,","1. Refund delay
+2. Checked reverse pkp QC status
+3. Full refund processed (6999)",refund_pending,"Claude (AI), not a human - needs human spot-check"
+16,TK-250137,refund_pending,Refunds & returns,msg,you picked up the item 6 days ago and my money hasn't come back,Contact re refund not credited. Checked reverse pickup QC status. Refund reprocessed. Will monitor.,refund_pending,"Claude (AI), not a human - needs human spot-check"
+17,TK-251465,reverse_pickup,Refunds & returns,msg,"Hello,
+I bought Pulse 2 on March 21. My son ordered this without asking, plesae reverse.
+I tried cancel button, greyed out.
+Can someone fix this?
+Thank you",cx says cancellation request. cancelled before dispatch. full rfnd processed (3499). ~Ayaan,cancellation,"Claude (AI), not a human - needs human spot-check"
+18,TK-247632,address_change,Delivery,msg,"dear team,
+ordered spare case in november. need to change delivery address.
+i tried editing in app. nothing changed.
+kindly look into it.
+thanks & regards,","cx reached out - address change request. chk dispatch status. Already dispatched, adv to redirect w/ crr. (SOP 3.1) ~Sukhwinder",address_change,"Claude (AI), not a human - needs human spot-check"
+19,TK-243515,pairing_connectivity,Product fault,msg,it connects for a second & then vanishes from the device list,"customer reached out - device not discoverable. walked through forget + re-pair. reset done, paired ok. -MI",pairing_connectivity,"Claude (AI), not a human - needs human spot-check"
+20,TK-240982,damaged_in_transit,Delivery,msg,"hey
+reeceived damaged product","cust contacted re transit damage. photos received, damage conf. rplc approved, reverse pkp arranged. follow-up not required.",damaged_in_transit,"Claude (AI), not a human - needs human spot-check"
+21,TK-248618,coupon_price,Billing,msg,"I bought Nexa 2 on 19/12. Promo code shows invalid.
+I tried in caps. Nothing changed.
+What do I do now?",cx: promo code invalid | checked coupon validity -> store credit issued ~Diya,coupon_price,"Claude (AI), not a human - needs human spot-check"
+22,TK-242141,refund_pending,Refunds & returns,msg,"money debited but order not shwoing
+can someone fix this?",Auto-refund conf within 5-7 days. Issue: amount deducted without order. conf w/ payment gateway. (SOP 3.1) ~Farah,double_charge,"Claude (AI), not a human - needs human spot-check"
+23,TK-251305,pairing_connectivity,Product fault,msg,"RAISED THIS LAST MONTH AND WAS TOLD IT WAS RESOLVED.
+IT CONNECTS FOR A SECOND AND THEN VANISHES FROM TEH DEVICE LIST
+WAITING FOR YOUR REPLY","second contact on same fault. 1. Pairing failure
+2. Walked through forget + re-pair
+3. Transferred to Escalations & Warranty
+4. Advised FW update via app, resolved",pairing_connectivity,"Claude (AI), not a human - needs human spot-check"
+24,TK-247242,audio_fault,Product fault,msg,"Hi Vireo support, Ordered Pulse2 2 weeks ago.  One of them (left) never gets teh green light in the case. I tried another charger. Nothing changed. How do I get this fixed? Regards, Anjali Gaikwad",contact re l bud no charge in case. asked cx to clean charging pins. transferred to billing. replacement unit dispatched.,battery_charging,"Claude (AI), not a human - needs human spot-check"
+25,TK-249470,pairing_connectivity,Product fault,msg,"hello
+bluetooth keeps cutting out
+pls reply","re: connection dropping | chk fw 1.7.1 -> advised, cx will monitor (SOP 5.4)",pairing_connectivity,"Claude (AI), not a human - needs human spot-check"
+26,TK-254543,pairing_connectivity,Product fault,msg,"Hello Vireo,
+I bought Pulse 2 on 27/12.  Bluetooth keepps cutting out.
+I reset both devices.
+Kindly look into it.
+Regards,",replacement raised. issue: connection dropping. advised to test in different location. //RIY,pairing_connectivity,"Claude (AI), not a human - needs human spot-check"
+27,TK-254788,display_touch,Product fault,msg,"dear sir/madam,
+
+this is the third time. i am writing with reference to my order of pulse2 placed on 12 apr. plugging in does nothing on the case, cable works on my phone. i have tried wireless charging pad. i request you to provide a resolution within 3 working days.
+
+yours faithfully,
+dev mishra",escalated to wty. issue: case not charging. chk for lint in port.,battery_charging,"Claude (AI), not a human - needs human spot-check"
+28,TK-250993,delivery_delayed,Delivery,note,"Dear Sir/Madam,
+
+I am writing with reference to my order of AirLite placed on 30-01-2026.  The courier marked it delivered but nobody in my house got anything. I hve called the courier. I request you to look into this matter at the earliest.
+
+Regards,
+Vikram Joshi
+Nagpur",cust contacted re dlvry delayed. raised ticket w/ crr partner. rfnd initiated as lost in transit. will monitor. [closed],delivery_delayed,"Claude (AI), not a human - needs human spot-check"
+29,TK-246008,wrong_item,Delivery,msg,teh box sys Orbbit Mini but what's inside is not what I paid for,cx reported wrong variant received. raised with warehouse. replacement dispatched. will monitor.,wrong_item,"Claude (AI), not a human - needs human spot-check"
+30,TK-250891,audio_fault,Product fault,msg,[IVR transcript] one of them is just decoration at this point need this sorted this week,"1. Left side silent
+2. Asked cx to check bud in case
+3. Transferred to Escalations & Warranty
+4. Reset resolved",audio_fault,"Claude (AI), not a human - needs human spot-check"
+31,TK-243791,delivery_not_received,Delivery,msg,"Hello Vireo, Bought pulse 2 buds around 04 Aug from Flipkart.  Order not delivered, tracking not updating. I checked the tracking page daily. Nothing changed. I want a replacement.","1. dlvry delaed
+2. chk AWB w/ crr
+3. Refund initiated as lost in transit",delivery_not_received,"Claude (AI), not a human - needs human spot-check"
+32,TK-244526,delivery_not_received,Delivery,msg,"Hi, I bought my Nexa 2 watch on 03 Sep. Package not delivered even after 10 days. I checked the tracking page daily. Really frustrating. Please call me on my registered number. Thanks & regards","1. Delivery delayed
+2. conf adress w/ cx
+3. Re-shipped from warehouse",delivery_not_received,"Claude (AI), not a human - needs human spot-check"
+33,TK-248388,audio_fault,Product fault,msg,"Hey, This was supposedly sorted by your team last time. Got the Pulse 2 earbuds from Amzon a month ago. One of them is just decoration at this point. I checked balance settings. I want a replacement.",contact re singel side audio only. walked through reset. replacement raised.,audio_fault,"Claude (AI), not a human - needs human spot-check"
+34,TK-248993,warranty_rma,Warranty,msg,Honetsly regretting this purchase. Got Strata 3 from Flipkart last month. warranty claim pending for 10 days. I already calld serviice centre. Refund. Now.,Ticket raised for warranty claim status. Checked QC report. New unit shipped under DOA. ~Vivaan,warranty_rma,"Claude (AI), not a human - needs human spot-check"
+35,TK-248573,display_touch,Product fault,msg,"[IVR transcript] plugging in does nothing on the case, cable works on my phone - please advise","case no led / no charge | asked cx to try different cable + adaptor -> rplc raised, rma shared with cx",battery_charging,"Claude (AI), not a human - needs human spot-check"
+36,TK-254717,audio_fault,Product fault,msg,"everything sounds like it is coming from one direction now, waiting for your reply",esc to warranty. Issue: right side silent. Walked througgh reset. (SOP 5.4) ~Farah,audio_fault,"Claude (AI), not a human - needs human spot-check"
+37,TK-240299,battery_charging,Product fault,msg,"hi
+i have to charge it twice a day now, it used to last days
+my pulse 2
+help","1. battery draining fast
+2. advised disabling anc/aod to test
+3. replacement raised after test [closed]",battery_charging,"Claude (AI), not a human - needs human spot-check"
+38,TK-248459,unclassified,Unclassified,none,"HI SIR
+SPEAER NOT CONNECITNG TO MY ROTUER
+BAHUT PARESHAN HU
+THE MINI SPEAKER
+HELLO??",customer states network setup issue. asked cx to try 2.4ghz only. advised router settings.,pairing_connectivity,"Claude (AI), not a human - needs human spot-check"
+39,TK-250357,address_change,Delivery,msg,"hi sir
+i moved houses yesterday and the order is going to the old flat
+kal se
+help","Reported: address update. Checked dispatch status. Already dispatched, adv to redirect with courier. Case closed with cx consent.",address_change,"Claude (AI), not a human - needs human spot-check"
+40,TK-254006,reverse_pickup,Refunds & returns,msg,"dear sir/madam,
+
+i am writing with reference to my order of pulse 1 plaecd on may 30. the app said piickup today, that was on may 30. i have rescheduled pickup twice. i request you to provide a resolution within 3 workng days.
+
+sincerely,
+ramesh goyal
+coimbatore","1. Pickup missed
+2. Re-raised pickup with courier
+3. Pickup done, refund initiated",reverse_pickup,"Claude (AI), not a human - needs human spot-check"
+41,TK-254212,app_crash,App & account,msg,"the vireo app keeps crashing, kindly look into it","issue: app crash on device page | known issue on ios 18 - bug loggd -> adv beta build, rslvd",app_crash,"Claude (AI), not a human - needs human spot-check"
+42,TK-250849,delivery_not_received,Delivery,msg,"Hi team, I bought my Nexa 2 watch on February 24. Oredr not delivered, trackng not updating. I called the courier. Nothing changed. KINDLY LOOK INTO IT. Awaiting response",Cx reported ord not delivered. chk AWB w/ crr. Re-shipped from warehouse.,delivery_not_received,"Claude (AI), not a human - needs human spot-check"
+43,TK-244200,invoice,Billing,msg,need the bill w/ my firm's GSTIN on it,cx says invoice not downloading. regenerated invoice. transferred to email frontline. gst invoice regenerated and shared. closing. -YM,invoice,"Claude (AI), not a human - needs human spot-check"
+44,TK-245220,compat_presales,Pre-sales,msg,"hi sir
+does pulse2 work with iphone
+kuch karo
+pulse2",Cust contacted re pre-sales query. Shared compatibility info. Cx satisfied.,compat_presales,"Claude (AI), not a human - needs human spot-check"
+45,TK-252198,battery_charging,Product fault,msg,"[IVR transcript] Same issue as before, it came back after 2 weeks.  - battery life has dropped to almost nothing - VR898178","1. Rapid battery drain
+2. chk FW 3.5.7
+3. rplc unit dispatched",battery_charging,"Claude (AI), not a human - needs human spot-check"
+46,TK-242488,wrong_item,Delivery,msg,"wrong product delivered
+what do i do now?",ticket raised for incorrect product shipped. verified ord vs delivered item photos. reverse pickup + correct item shipped. case closed with cx consent.,wrong_item,"Claude (AI), not a human - needs human spot-check"
+47,TK-252189,app_crash,App & account,msg,"Hey,
+Ordered my Nexa Fit band last week. Sincce the lats update the app just shows a white screen.
+I cleared cache.
+I want my money back.","cx: app crashing | asked for phone model + os -> bug logged, workaround shared",app_crash,"Claude (AI), not a human - needs human spot-check"
+48,TK-244992,delivery_delayed,Delivery,msg,[IVR transcript] not acceptable at this price.  got my strata 3 headphones from flipkart around diwali. not pairing with my phone. i already forgot the device and tried again. escalate this to someone senior,"cx reported device not discoverable. checked phone os version. advised fw update via app, resolved. follow-up not required. //RIY",pairing_connectivity,"Claude (AI), not a human - needs human spot-check"
+49,TK-253084,battery_charging,Product fault,msg,"hi, my earlier ticket got closed without a fix. this is regarding pulse 2 buds. i have to charge it twice a day now, it used to last days. i updated the app. please resolve asap.","cx unhappy, contacted eariler re same. refund of Rs 3499 initiated to source ~Kabir",battery_charging,"Claude (AI), not a human - needs human spot-check"
+50,TK-249585,delivery_not_received,Delivery,msg,order vr896611 (the pulse 2 earbuds). it has bene 11 days and i have nothing in hand. i called the courier. please resolve asap. rgds,cx reached out - dlvry delayed. conf address w/ cx. rfnd initiated as lost in transit. will monitor. [closed],delivery_not_received,"Claude (AI), not a human - needs human spot-check"
+51,TK-247813,delivery_not_received,Delivery,msg,after the update prompt it went dak and never came back - VR896450,contact re firmware update failed. checked fw 1.2.12 rollout. update completed after retry. (sop 2.7) ~Kavya,firmware_update,"Claude (AI), not a human - needs human spot-check"
+52,TK-240277,delivery_delayed,Delivery,msg,"hi, this is regarding pusle 1.  order status stuck on shipped since january 15. kindly look into it. thank you",Cx reported ord not delivered. Raised ticket w/ courier partner. rfnd initiiated as losst in transit.,delivery_delayed,"Claude (AI), not a human - needs human spot-check"
+53,TK-252816,compat_presales,Pre-sales,msg,"bhai
+is airlite compatible with my tv
+a month ago se
+anyone there",sorted [closed],compat_presales,"Claude (AI), not a human - needs human spot-check"
+54,TK-244360,pairing_connectivity,Product fault,msg,"bought the miini speker around 10 aug from vireo.in.  conneciton drops constantly. kindly look into it. regards, divya",Cx says intermittent disconnects. Advised to test in different location. rplc raised. (SOP 5.4),pairing_connectivity,"Claude (AI), not a human - needs human spot-check"
+55,TK-248904,warranty_rma,Warranty,msg,"bhai
+warranty claim pending for 13 days
+pulse 2",cx reported rma status query. chk rma status. rplc approved & dispatched. will monitor.,warranty_rma,"Claude (AI), not a human - needs human spot-check"
+56,TK-246603,refund_pending,Refunds & returns,msg,"To the Vireo Customer Care Team,
+
+Your agent said it was fixed.  It is not. I am writing w/ reference to my order of the charging case I ordered (VR892340) placed on 23-10-2025. Refund not received yet. I have checked bank. I request you to provide a resolution within 3 working days.
+
+Sincerely,
+Ritika Goyal",Refund of Rs 1169 initiated to source. Issue: refund not credited. Checked refund status on PG.,refund_pending,"Claude (AI), not a human - needs human spot-check"
+57,TK-241569,firmware_update,App & account,msg,I have been a loyal customer and this is how you treat me.  Ordered my Pulse last month. firmware update is stuck at 40%. I already restarted the app. Fix this or I am posting on twitter.,cx says firmware update failed. walked through recovery mode. recovery successful. [closed],firmware_update,"Claude (AI), not a human - needs human spot-check"
+58,TK-252971,reverse_pickup,Refunds & returns,msg,"Dear Sir/Madam,
+
+I am writing with reference to my order of my Nexa 2 watch (VR882579) placed on 20-04-2026.  Return pickup has not happened. I have called courier. I request you to look into this matter at the earliest.
+
+Yours faithfully,
+Farah Kumar
+Mumbai","Cx says pickup not done. Re-raised pickup with courier. Pickup done, refund initiated. Closing.",reverse_pickup,"Claude (AI), not a human - needs human spot-check"
+59,TK-253214,pairing_connectivity,Product fault,msg,it connects for a second and then vanishes from the device list - VR907107,"1. Unable to pair w/ phone
+2. Walked through forget + re-pair
+3. xfer to Logistics
+4. adv FW update via app, rslvd",pairing_connectivity,"Claude (AI), not a human - needs human spot-check"
+60,TK-240721,wrong_item,Delivery,msg,"Hello Vireo,
+Bought my Strata 3 headphones around February 19 from vireo.in. Ordered black, got white, not what I asked for.
+I checked the invoice.
+I want my money back.
+Regards,","1. Incorrect product shipped
+2. Verified ord vs delivered item photos
+3. Refunded Rs 5599",wrong_item,"Claude (AI), not a human - needs human spot-check"
+61,TK-251533,compat_presales,Pre-sales,msg,Really frustrating. Got my Pulse 2 from vireo.in a month ago. sounds like a badly tuned radio now. I already tried wired mode. This is the last time I buy from you.,"Customer reached out - crackling/distortion. Asked for a recording. Transferred to Escalations & Warranty. FW update, cx to monitor. ~Vivaan",audio_fault,"Claude (AI), not a human - needs human spot-check"
+62,TK-254491,refund_pending,Refunds & returns,msg,"dear team, got orbit mini from amazon last week. refund not received yet. how do i get this fixed?","1. Refund not credited
+2. Checked reverse pickup QC status
+3. Refund reprocessed",refund_pending,"Claude (AI), not a human - needs human spot-check"
+63,TK-251544,delivery_not_received,Delivery,msg,"HONESTLY REGRETTNG THIS PURCHASE. airlite earbuds purchased in March, order VR881305. it has been 10 days and I have nothing in hand. I already called the courier. Refund. Now.","1. dlvyr delayed
+2. Raised ticket w/ curier partner
+3. RTO conf, reshipped",delivery_not_received,"Claude (AI), not a human - needs human spot-check"
+64,TK-246935,compat_presales,Pre-sales,msg,"hello
+my dad has an old nokia, will the watch app run
+my strata 3 headphones",resolved on call,compat_presales,"Claude (AI), not a human - needs human spot-check"
+65,TK-242231,delivery_not_received,Delivery,msg,I haven't received my order,Reported: order not delivered. Raisde ticket with courier partner. Refund initiated as lost in transit.,delivery_not_received,"Claude (AI), not a human - needs human spot-check"
+66,TK-242611,cancellation,Refunds & returns,msg,"Dear Sir/Madam, Ordered my Strata 3 headphones in June. Want to cancel my order. I tried cancel button, greyed out. How do I get this fixed? Thanks",Reported: order cancellation. Cancelled before dispatch. Refund of Rs 1120 initiated to source.,cancellation,"Claude (AI), not a human - needs human spot-check"
+67,TK-253095,unclassified,Unclassified,none,"Namaste,
+This is regarding my Nexa 2 watch. Paid on 06 May, still waiting for something to show up.
+I checked with neighbours. Nothing changed.
+Kindly look into it.
+Thanks Aditya",cx ok,double_charge,"Claude (AI), not a human - needs human spot-check"
+68,TK-249411,pairing_connectivity,Product fault,msg,"FOLLOWING UP ON MY ERLIER COMPLAINT - NOTHING HAS CHANGED., PAIRING IS NOT WORKING","cx says was told fixed last time. 1. pairing failure
+2. checked phone os version
+3. advised fw update via app, resolved",pairing_connectivity,"Claude (AI), not a human - needs human spot-check"
+69,TK-249459,pairing_connectivity,Product fault,msg,"team,
+it connects for a second and then vanishes from the device list
+a month ago se
+pulse 2
+??","re: unable to pair w/ phone | asked cx to reset the device -> adv fw update via app, rslvd",pairing_connectivity,"Claude (AI), not a human - needs human spot-check"
+70,TK-251636,damaged_in_transit,Delivery,msg,"Hi there, Order VR892115 (pulse 2 buds).  There's a dent on the case straight out of the box. I want a replacement. Regards Neha","Customer reached out - transit damage. Photos rcvd, damage confirmed. New unit shipped under DOA.",damaged_in_transit,"Claude (AI), not a human - needs human spot-check"
+71,TK-243583,app_crash,App & account,msg,"Dear Sir/Madam, Order VR908043 (Nexa 2). The app closes ittself the moment I tap on my device. I clearred cache. How do I get this fixed? Please revert Tenzin Jadhav","customer states app crash on device page. checked app version. advised beta build, resolved. cx satisfied on chat. -YM",app_crash,"Claude (AI), not a human - needs human spot-check"
+72,TK-247901,double_charge,Billing,msg,"paid via UPI, amount deducted, no order confirmation, please advise","1. failed order after payment
+2. asked for utr
+3. transferred to chat frontline
+4. refund approved, rs 425, 5-7 working days",double_charge,"Claude (AI), not a human - needs human spot-check"
+73,TK-250742,pairing_connectivity,Product fault,msg,the pairing light blinks but nothing ever shows up on my oneplus,"customer reached out - pairing failure. checked phone os version. advised fw update via app, resolved.",pairing_connectivity,"Claude (AI), not a human - needs human spot-check"
+74,TK-254069,reverse_pickup,Refunds & returns,msg,"Product: the Pulse 2 earbuds
+Purchased: May 13
+Issue: return pickup has not happened
+Tried: called courier
+Expected: refund","1. Pickup missed
+2. Re-raised pickup w/ courier
+3. Pickup done, rfnd initiated",reverse_pickup,"Claude (AI), not a human - needs human spot-check"
+75,TK-253497,reverse_pickup,Refunds & returns,msg,"Dear Sir/Madam,
+
+I am writing with reference to my order of my Pulse 2 placed on 12-05-2026.  Packed the box a week ago and it's still here. I have rescheduled pickup twice. I request you to provide a resolution within 3 working days.
+
+Regards,
+Daniel Pawar
+Dehradun","Customer reached out - pickup missed. Checked pickup AWB. Pickup done, refund initiated. Follow-up not required.",reverse_pickup,"Claude (AI), not a human - needs human spot-check"
+76,TK-250737,reverse_pickup,Refunds & returns,msg,"I am losing patience. I bought Pulse 2 on 28 Feb. my son ordered this without asking, please reverse. I already tried cancel button, greyed out. Escalate this to someone senior.",contact re cancellation request. chk shipment status. full refund processed (3499).,cancellation,"Claude (AI), not a human - needs human spot-check"
+77,TK-247999,delivery_delayed,Delivery,msg,Pathetic experience honestly. I bought Nexa 2 on November 29. it has been 20 days and I have nothing in hand. I already checked the tracking page daily. Escalate this to someone senior.,Reported: order not delivered. Checked AWB with courier. Full refund processed (1300).,delivery_delayed,"Claude (AI), not a human - needs human spot-check"
+78,TK-241123,login_otp,App & account,msg,"[IVR transcript] the login code never arrives, tried 6 times what do i do now?","cx says otp not received. chk otp logs. number updated, rslvd.",login_otp,"Claude (AI), not a human - needs human spot-check"
+79,TK-246326,double_charge,Billing,msg,"[IVR transcript] Not acceptable at this price. Ordered Pulse2 3 weeks back. double payment deducted. I already checked with bank. I want a replacement or refund, nothing else.","1. Double charge
+2. Checked PG for duplicate txn
+3. Duplicate refunded to source",double_charge,"Claude (AI), not a human - needs human spot-check"
