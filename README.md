@@ -4,13 +4,13 @@ Weekly "what are customers complaining about" digest, an agent leaderboard that 
 
 ## Run it (clean machine, Python 3.10+)
 ```bash
-git clone <this repo> && cd vireo-support-digest
-python -m venv .venv && source .venv/bin/activate
+git clone https://github.com/sravanthi0099/vireo-support-digest.git
+cd vireo-support-digest
 pip install -r requirements.txt
-cp /path/to/export/*.csv data/            # tickets, agents, orders, customers, products
-python -m vireo.run --data data --out out # optional: --week 2026-06-22   --llm
-python -m pytest -q tests                 # 9 tests
-python eval/score.py                      # classifier accuracy vs reviewed sample
+# copy tickets, agents, orders, customers, products CSVs into data/
+python -m vireo.run --data data --out out
+python -m pytest -q tests
+python eval/score.py
 ```
 Outputs in `out/`:
 | file | what |
